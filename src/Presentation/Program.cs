@@ -15,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// API Versioning
 builder.Services.AddApiVersioning(options =>
 {
     options.ReportApiVersions = true;
